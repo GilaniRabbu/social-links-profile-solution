@@ -25,7 +25,7 @@ body {
   align-items: center;
   background-color: var(--color-background);
   font-family: "Inter", sans-serif;
-  padding: 1.5rem;
+  padding: 1rem;
 }
 
 .container {
@@ -97,4 +97,11 @@ body {
 
 .link:active {
   transform: scale(0.98);
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+    max-width: 320px;
+  }
 }
