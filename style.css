@@ -20,8 +20,9 @@ ul {
 
 body {
   min-height: 100vh;
-  display: grid;
-  place-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: var(--color-background);
   font-family: "Inter", sans-serif;
   padding: 1.5rem;
@@ -29,10 +30,9 @@ body {
 
 .container {
   background-color: var(--color-card);
-  /* width: 100%; */
   width: 384px;
-  padding: 1.5rem;
-  border-radius: 10px;
+  padding: 2rem;
+  border-radius: 12px;
 }
 
 .avatar {
@@ -49,14 +49,13 @@ body {
   font-size: 1.5rem;
   font-weight: 600;
   text-align: center;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 .location {
   color: var(--color-location);
   display: block;
-  font-size: 1rem;
-  margin-bottom: 1.5rem;
+  font-size: 0.875rem;
 }
 
 .description {
