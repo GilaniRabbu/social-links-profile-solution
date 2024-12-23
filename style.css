@@ -38,11 +38,11 @@ body {
 
 .avatar {
   display: block;
-  width: 80px;
-  height: 80px;
+  width: 88px;
+  height: 88px;
   margin-inline: auto;
   border-radius: 50%;
-  margin-bottom: 1.25rem;
+  margin-bottom: 1.75rem;
 }
 
 .name {
@@ -79,7 +79,7 @@ body {
   width: 100%;
   cursor: pointer;
   border: none;
-  padding: 0.875rem;
+  padding: 0.75rem;
   border-radius: 10px;
   font-size: 0.875rem;
   font-weight: 600;
